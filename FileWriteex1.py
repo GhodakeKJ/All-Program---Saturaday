@@ -1,0 +1,8 @@
+kvr=open("hyd.data","w")
+print("Type Of Obj=",type(kvr))
+print("I Can Write =",kvr.writable())
+print("I Can Read =",kvr.readable())
+print("Mode Of File =",kvr.mode)
+print("File Is Close In Line 6=",kvr.closed)
+kvr.close()
+print("File Is Close In Line 8=",kvr.closed)
