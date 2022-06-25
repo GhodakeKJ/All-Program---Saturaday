@@ -1,5 +1,5 @@
-age=int(input("Enter Age Of Citizen For Cheacking Eligible For Vote :"))
-if(age>=18):
-    print("{} Is Eligible For Vote ".format(age))
-else:
-    print("{} Is Not Eligible For Vote".format(age))
+while(True):
+    age=int(input("Enter Citizen Age For Vote :"))
+    if(age >=18 and age <=100 ):
+        print("{} Age Citizen Are Eligible For Vote!".format(age))
+        break
